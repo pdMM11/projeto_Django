@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Add Taxonomy </title>
+</head>
+
+<body>
+<h1>Add Taxonomy </h1>
+<form action="" method="POST">
+{% csrf_token %}
+commonname: <input type="text" name="commonname"/><br/>
+family: <input type="text" name="family"/><br/>
+genre: <input type="text" name="genre"/><br/>
+species: <input type="text" name="species"/><br/>
+subspecies: <input type="text" name="subspecies"/><br/>
+ncbitax: <input type="text" name="ncbitax"/><br/>
+<!--
+Content: <br/>
+<textarea cols="35" rows="8" name="new_host">
+</textarea><br/>
+-->
+<input type="submit" value="Post"/>
+</form>
+</body>
+
+</html>

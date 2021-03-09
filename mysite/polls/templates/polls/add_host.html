@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Add Host </title>
+</head>
+
+<body>
+<h1>Add Host </h1>
+<form action="" method="POST">
+{% csrf_token %}
+Host: <input type="text" name="host"/><br/>
+<!--
+Content: <br/>
+<textarea cols="35" rows="8" name="new_host">
+</textarea><br/>
+-->
+<input type="submit" value="Post"/>
+</form>
+</body>
+
+</html>
